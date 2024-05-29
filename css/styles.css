@@ -10871,13 +10871,17 @@ html {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(3rem + 72px);
+  padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
   height: 50vh;
+  display: flex;
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  text-align: center;
 }
 header.masthead .masthead-content {
   z-index: 1;
