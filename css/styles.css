@@ -10877,6 +10877,7 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+  height: 50vh;
 }
 header.masthead .masthead-content {
   z-index: 1;
