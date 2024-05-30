@@ -1,162 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>parkyongkyu.com</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
-        <style>
-            .masthead {
-                position: relative;
-                background: url('assets/img/main.jpg') no-repeat center center;
-                background-size: cover;
-                height: 100vh; /* 원하는 높이로 조정 */
-            }
-            .masthead-content {
-                position: relative;
-                z-index: 2;
-            }
-            .custom-height {
-                height: 70%; /* 원하는 높이로 조정 */
-            }
-        </style>
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-            <div class="container px-5">
-                <a class="navbar-brand" href="#page-top">park yong kyu</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#!">who is yongkyu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/na_sok">portfolio</a></li>
-                    </ul>
-                </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="/stylesheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Song+Myung&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PARk YONG KYU</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">who</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">data</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <header class="header">
+      <div>
+        <p class="header-text fw-bolder text-dark">더 나은 내일을 늘 생각합니다.</p>
+        <img src="main.jpg" class="img-fluid header-img" alt="main">
+      </div>
+    </header>
+    <br>
+    <br>
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-3">
+        <div class="col">
+          <div class="card">
+            <div class="card-header fw-bold text-primary">
+              중기부 입법예고
             </div>
-        </nav>
-        <!-- Header-->
-        <header class="masthead text-center text-info">
-            <div class="masthead-content">
-                <div class="container custom-height">
-                    <div>
-                        <h1 class="Dongle&family mb-5;">가장 낮은 곳에서 공동체를 살펴봅니다.</h1>
-                        <h2 class="nanum-brush-script-regular">세상에 의미 있는 사람이 되고자 합니다.</h2>
-                        <!-- <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">More</a> -->
-                    </div>
-                </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="http://15.165.180.185:5001/" class="btn btn-light">최근예고 바로가기</a></li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card">
+              <div class="card-header fw-bold text-primary">
+                중기부 보도자료
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="http://15.165.180.185:5000/" class="btn btn-light">최근자료 보러가기</a></li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
             </div>
-        </header>
-        <!-- Content section 1-->
-        <section id="scroll">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/01.jpg" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-3">
-                            <h2 class="display-4 dongle-regular mb-3">국민을 바라봅니다.</h2>
-                            <p>좋은 정치는 수단이 아니라, 목적이 되어야 합니다.</p>
-                            <p>정치의 목적은 국민입니다.</p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card">
+              <div class="card-header fw-bold text-primary">
+                Featured
+              </div>
+              <ul class="list-group list-group-flush">
+        ""        <li class="list-group-item">An itemAn itemAn itemAn itemAn itemAn itemAn itemAn itemAn itemAn itemAn item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
             </div>
-        </section>
-        <!-- Content section 2-->
-        <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="p-5">
-                            <h2 class="display-4 dongle-regular mb-3">할말은 해야 합니다.</h2>
-                            <p>진정 두려운 것은 침묵입니다.</p>
-                            <p>타협은 최선이 아니라 불기파한 것이고, 올바름이 우선일 것입니다.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Content section 3-->
-        <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/03.jpg" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4 dongle-regular mb-3">함께 나아갑니다.</h2>
-                            <P>혼자가 아니라, 공동체를 지향합니다.</P>
-                            <P>사람 냄새나는 정치는 함께 할 때 가능합니다.</P>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <div class="card-body">
-                                <h3>중소벤처기업부 입법예고</h3>
-                            </div>
-                            <div class="card-footer">
-                                <a href="http://15.165.180.185:5001/" class="btn btn-light">최근예고 바로가기</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <div class="card-body">
-                                <h3>중소벤처기업부 보도자료</h3>
-                            </div>
-                            <div class="card-footer">
-                                <a href="http://15.165.180.185:5000/" class="btn btn-light">최근자료 보러가기</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4">
-                            <div class="card-body">
-                                <h3>뉴스레터 주소 남기기</h3>
-                            </div>
-                            <div class="card-footer">
-                                <a href="http://15.165.180.185:5002/" class="btn btn-light">주소입력 바로가기</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-black">
-            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Your Website 2023</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </body>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
